@@ -29,8 +29,14 @@ int main()
 	//TASKS:
 
 	//Shift right by 1 and display
-
+	//SOLUTION:
+	number >>= 1;
+	displayAndCompare(number);
 
 	//Shift left by 1 and display
-
+	//SOLUTION:
+	number <<= 1;
+	displayAndCompare(number);
+	
+	//NOTE: the LSB is lost when shifting right in the above part.
 }
