@@ -35,6 +35,9 @@ int main()
     if (level == 0) {
         cout << "Tank is empty" << endl;
     }
+    else {
+        cout << "Tank is not empty" << endl;
+    }
 
     if (level <= low)                       // check the level
     {
@@ -48,6 +51,9 @@ int main()
     if (level == high)                       // monitor the level
     {
         cout << "Tank is full" << endl;
+    }
+    else {
+        cout << "Tank is not full" << endl;
     }
 
 }
