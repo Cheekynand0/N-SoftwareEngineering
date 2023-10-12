@@ -20,7 +20,7 @@ int main()
     cout << input << endl;
 
     //Write solution here
-
+    
 
 
     // Challenge 2 - word count
