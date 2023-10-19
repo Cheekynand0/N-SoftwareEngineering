@@ -3,6 +3,7 @@ using namespace std;
 
 //Function prototypes
 int sub(int u, int v);
+int absDiff(int a, int b);
 
 
 int main()
@@ -18,21 +19,8 @@ int main()
 
     // ***1***
     // create variables to hold the reslts of the calculation
-    int diff = 0;
-
-    // Calculate the difference
-    if (var1 >= var2)               // check which variable is larger - also this covers the case where they are the same
-    {
-        diff = sub(var1, var2);     // do the subtraction
-    }
-    else
-    {
-        diff = sub(var2, var1);     // do the subtraction
-    }
-    // ***2***
+    int diff = absDiff(var1, var2);
     
-
-    //int diff = absDiff(var1, var2);
 
     // print out the results
     cout << "Absolute diff = " << diff << endl;
@@ -44,4 +32,13 @@ int sub(int u, int v)
 {
     int y = u - v;
     return y;
+}
+
+int absDiff(int a, int b) { //Note: this function then makes the sub function pointless
+    if (a >= b) {
+        return (a - b); //could be replaced with the sub function.
+    }
+    else {
+        return (b - a);
+    }
 }
