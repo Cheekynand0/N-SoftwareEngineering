@@ -1,44 +1,11 @@
-// FirstOOP.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// 24-Challenge3-YearRecord.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
-#include <string>
-using namespace std;
-
-
-class Person
-{
-private:
-    string name;
-    unsigned int _age;
-public:
-    Person(string personName, unsigned int age)
-    {
-        name = personName;
-        _age = age;
-    }
-
-    void display() {
-        cout << name << " is " << _age << " years old" << endl;
-    }
-
-    void operator<<(string newName)
-    {
-        name = newName;
-    }
-    
-};
-
 
 int main()
 {
-    Person p1("Sam", 33);
-    p1.display();
-    Person p2("Les", 51);
-    p2.display();
-
-    p1 << "Yoda";
-    p1.display();
+    std::cout << "Hello World!\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
