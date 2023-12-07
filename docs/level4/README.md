@@ -23,17 +23,16 @@ C++ can be thought of as a super-set of the C language. We will start with C, an
 |  | [Variables and arithmetic](/docs/level4/variables_and_arithmetic.md) | Using the development tools to use variables to store and manipulate numerical values  | 
 | 2. | [Iteration](/docs/level4/iteration.md) | while loops, do-while loops |
 |  |  | for loops, break and continue  |
-| 3. | Flow Control  | Conditions and Comparisons using if-else if-else |
+| 3. | [Flow Control](/docs/level4/flowcontrol.md)  | Conditions and Comparisons using if-else if-else |
 |   |   | switch-case |
-| 4. | Functions | Syntax, factoring code |
+| 4. |  [Arrays, Strings and Pointers](/docs/level4/arrays.md) | Statically allocated arrays, C strings and C++ strings. |
+| 5. | [Functions](/docs/level4/functions.md) | Syntax, factoring code |
 |  |  | Splitting code across modules |
 | | | Variable Scope |
-| 5 |  Arrays, strings and pointers | C arrays; C strings, C++ strings |
-| | | Pointer fundamentals |
-| 6 | User and File IO | Terminals and File IO in C and C++ |
-| 7 | Structures and C++ Classes | structures, simple classes, encapsulation, objects, statics |
-| 8 | Object Orientated Programming (OOP) | Inheritance, composition, overloading, overriding |
-| 9 | GUI OOP | OOP with Qt Widgets |
+| 6 | [User and File IO](/docs/level4/fileIO.md) | Terminals and File IO in C and C++ |
+| 7 | [Structures and C++ Classes](/docs/level4/classes.md) | structures, simple classes, encapsulation, objects, statics |
+| 8 | [Object Orientated Programming (OOP)](oop.md) | Inheritance, composition, overloading, overriding |
+| 9 | [GUI OOP](oop_gui.md) | OOP with Qt Widgets |
 | 10 | Functional Programming | C++ closures, recursive programming |
 
 ### Recommended Resources
@@ -45,4 +44,8 @@ For C++, we recommended the following:
 
 [W3 schools C++ Tutorial](https://www.w3schools.com/cpp/default.asp)
 
+---
 
+---
+
+[Back to Table of Contents](../../README.md)
