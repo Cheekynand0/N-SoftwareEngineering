@@ -16,6 +16,17 @@ int main()
 
     //Display what was typed in
     printf("x = %d\n", x);
+
+    //Task to add an extra number, display & find the average.
+    int y = 0;
+
+    printf("Enter your friend's age\n");
+    int founder = scanf_s("%d", &y);
+    printf("Matched %d items\n", founder);
+    printf("y = %d\n", y);
+
+    float z = ((float)y + (float)x) / 2.0;
+    printf("Average = %f", z);
 }
 
 

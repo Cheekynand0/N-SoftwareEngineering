@@ -14,7 +14,7 @@ int main()
 
     // ********************** Setting Precision **************************
     int age = 23;
-    cout << "My age is  " << age << endl;
+    cout << "My age is " << age << endl;
 
     // Setting precision is not so easy?
     float radius = 10.0f;
