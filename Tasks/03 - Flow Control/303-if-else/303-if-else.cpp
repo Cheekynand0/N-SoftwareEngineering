@@ -34,7 +34,7 @@ int main()
     //Additional boundary check
     if (level == 0) {
         cout << "Tank is empty" << endl;
-    }
+    }  
     else {
         cout << "Tank is not empty" << endl;
     }
