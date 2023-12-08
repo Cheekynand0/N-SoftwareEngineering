@@ -41,7 +41,7 @@ int main()
 
     //Comparing array content - part 1
     int diff = (int)strncmp(moduleName, anotherModule, (int)sizeof(moduleName)-1);
-    if ( diff == 0)
+    if (diff == 0)
     {
         printf("%s is the same as %s\n", moduleName, anotherModule);
     }
