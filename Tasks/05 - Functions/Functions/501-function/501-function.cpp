@@ -13,7 +13,7 @@ void displayBanner() {
 
 int main()
 {
-	const string message = "Welcome to Uni of Plymouth's Computer Science";
+	const string message = "Welcome to Uni of Plymouth's Computer Science Course";
 	
 	//Get the length of the string
 	L = message.length();
