@@ -41,6 +41,26 @@ int main()
         }
     }
 
+    //TASK: Loop to read all words in the string & count how many there are.
+    //Note: write each word, when reading 'awlays', add an extra line break.
+    cout << endl << endl << nextWord << endl; //put some space between us + include 'May'
+    int count = 1; //to count how many (starts at 1 'cause we already read 'May)
+    while (!iss.eof()) {
+        iss >> nextWord;
+        if (iss.fail()) {
+            cout << "No word successully read." << endl;
+        }
+        else if (nextWord == "Always.") {
+            cout << nextWord << endl << endl;
+        }
+        else { 
+            cout << nextWord << endl; 
+        }
+        count++;
+    }
+    cout << endl << "File contains " << count << " words." << endl;
+
+
     //Final check - did we read an EOF character? This can happen when we read the last word or beyond it (space or newline)
     if (iss.eof()) {
         cout << "We reached the end of the file" << endl;

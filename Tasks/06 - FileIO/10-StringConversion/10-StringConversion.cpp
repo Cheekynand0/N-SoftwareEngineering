@@ -47,6 +47,12 @@ int main()
             //TODO:
             // Read the next word
             // If successful, try to convert to an integer then break from the while loop
+            iss >> nextWord;
+            moduleNumber = stoi(nextWord);
+            cout << moduleNumber << endl;
+            moduleNumber++;
+            cout << "New module code: COMP" << moduleNumber << endl;
+            break;
         }
     }
 

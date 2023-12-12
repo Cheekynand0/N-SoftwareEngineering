@@ -41,7 +41,13 @@ int main()
     cout << "Subject Area is " << subjectArea << endl;
 
     int code;
-
+    
+    while (nextWord != "ID:") {
+        inputStream >> nextWord;
+    }
+    inputStream >> code;
+    code += 1;
+    cout << "New module code is " << subjectArea << code << endl;
     //TO DO: 
     // Now find the module ID number
     // Store it in the integer variable code

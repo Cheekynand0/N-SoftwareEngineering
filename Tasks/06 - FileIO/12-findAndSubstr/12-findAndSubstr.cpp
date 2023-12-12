@@ -64,6 +64,17 @@ int main()
         return -1;
     }
 
+    //Task: code to find "Area:" & the following subject group
+    cout << endl; //for space
+    int pos2 = dataString.find("Area:");
+    string after = dataString.substr(pos2); 
+    istringstream iss2(after);
+    string strArea;
+    string strGroup;
+    iss2 >> strArea >> strGroup;
+    cout << "Found \"Area\" at position " << pos2 << endl;
+    cout << "Subject group = " << strGroup << endl;
+
     // Done
     cout << "All is well!" << endl;
     return 0;
